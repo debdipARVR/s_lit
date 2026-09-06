@@ -1819,8 +1819,8 @@ def show_signin_dialog():
         key="login_imprint_select"
     )
     
-    email = st.text_input("Work Email:", value="editorial@penguinrandomhouse.com" if "Penguin" in imprint else "editor@publisher.com", key="login_email_input")
-    password = st.text_input("Password / Enterprise API Key:", type="password", value="••••••••••••", key="login_pwd_input")
+    email = st.text_input("Work Email:", placeholder="editor@publisher.com", key="login_email_input")
+    password = st.text_input("Password / Enterprise API Key:", type="password", value="", placeholder="••••••••••••", key="login_pwd_input")
     
     col_sub, col_cancel = st.columns([1.2, 0.8])
     with col_sub:
