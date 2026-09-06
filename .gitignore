@@ -1,0 +1,22 @@
+﻿# Environment variables & secrets
+.env
+.env.*
+*.env
+*.key
+secret.key
+fernet.key
+credentials.json
+.streamlit/secrets.toml
+.ssh_authority_ed25519*
+data/.ssh_authority_ed25519*
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*.class
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
